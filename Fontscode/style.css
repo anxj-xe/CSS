@@ -1,7 +1,7 @@
 
 h1{
     font-family: "Roboto Condensed", Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color:rgb(0, 13, 255);
 }
 p{
@@ -11,5 +11,5 @@ p{
     font-style: italic;
 }
 body{
-    background-color: #008785;
+    background-color: hsl(54, 49%, 64%);
 }

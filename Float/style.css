@@ -1,0 +1,20 @@
+body{
+    border: 2px solid;
+    display: flow-root;
+    margin: 10px ;
+
+}
+#img1{
+    float: left;
+    margin: 20px;
+    border: 2px solid black ;
+}
+#img2{
+    float: right;
+    margin: 20px;
+    border: 2px solid black ;
+}
+#vid1{
+    float: right;
+    margin: 20px;
+}

@@ -1,0 +1,29 @@
+h1::first-letter{
+    color:rgb(255, 0, 0);
+    font-style: italic;
+}
+p::first-line{
+    background-color: aqua;
+    font-style: italic;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+#fruit li::marker{
+    content: "🗣️";
+}
+#apple::after{
+    content: "😔";
+}
+#orange::after{
+    content: "💔";
+}
+#banana::after{
+    content: "😋";
+}
+#fruit{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}

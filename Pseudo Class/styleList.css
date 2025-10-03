@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(100, 96, 122);
+}
+li:hover{
+    background-color: bisque;
+}
+li:not(:hover){
+    background-color: rgb(0, 172, 37);
+}
+li:nth-child(2n+1){
+    background-color: aqua;
+}

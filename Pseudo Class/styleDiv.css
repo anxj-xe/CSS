@@ -1,0 +1,8 @@
+#greet p{
+    background-color: aquamarine;
+    padding: 15px;
+    display: none;
+}
+#greet:active p{
+    display: block;
+}

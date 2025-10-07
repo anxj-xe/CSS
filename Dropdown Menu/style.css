@@ -1,0 +1,11 @@
+.Dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.Dropdown button{
+    cursor: pointer;
+}
+.Dropdown .content{
+    position: absolute;
+}

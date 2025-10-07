@@ -1,0 +1,31 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 10em;
+    text-align: center;
+    animation: fade;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes SlideLeft{
+    from{transform: translateX(200%);}
+}
+@keyframes SlideRight{
+    to{transform: translateX(200%);}
+}
+@keyframes SlideUp{
+    from{transform: translateY(200%);}
+}
+@keyframes SlideDown{
+    to{transform: translateY(200%);}
+}
+@keyframes Rotate{
+    50%{transform: rotateY(360deg);}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}

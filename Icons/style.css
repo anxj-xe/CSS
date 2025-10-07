@@ -1,0 +1,25 @@
+.icons{
+    text-align:center;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.fa-duotone.fa-solid.fa-house-user.fa-5x{
+    color: hsl(170, 100%, 18%);
+}
+.fa-duotone.fa-solid.fa-house-user.fa-5x:hover{
+    color: hsl(170, 100%, 28%);
+}
+.fa-brands.fa-instagram.fa-5x{
+    color: hsl(0, 100%, 37%);
+}
+.fa-brands.fa-instagram.fa-5x:hover{
+    color: hsl(0, 100%, 47%);
+}
+.fa-brands.fa-github.fa-5x{
+    color: hsl(0, 0%, 16%);
+}
+.fa-brands.fa-github.fa-5x:hover{
+    color: hsl(0, 0%, 36%);
+}

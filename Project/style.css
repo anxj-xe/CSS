@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'chorus';
+    src: url(/fonts/CHORUS/CHORUS-BOLD.otf);
+}
+@font-face {
+    font-family: 'barbie';
+    src: url(/fonts/Barbie\ Charming.otf);
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)75%, rgba(0,0,0,0.5)75%), url(/Images/cover1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo a{
+    text-decoration: none;
+    color:hsl(28, 42%, 52%);
+    font-size: 60px;
+    font-family: "chorus";
+    padding-left: 20px;
+    padding-top: 23px;
+    float: left;
+}
+.logo a:hover{
+    color: hsl(28, 59%, 60%);
+}
+.logo a:active{
+    color: hsl(28, 40%, 40%);
+}
+
+.menu{
+    width:200px;
+    height: 100px;
+    float: left;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 76%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    font-size: 1.1em;
+    color: white;
+}
+ul li a:active{
+    color: hsl(0, 0%, 60%);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+.srch{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border-radius: 15px;
+    color:  hsl(0, 0%, 51%);
+}
+
+.btn{
+    width: 70px;
+    background: transparent;
+    color: hsl(0, 0%, 50%);
+    font-size:17px;
+    border-radius: 15px;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+
+.content h1{
+    width: 1200px;
+    height: auto;
+    color: rgb(162, 3, 3);
+    font-family: "barbie";
+    padding-left: 30px;
+    padding-top: 60px;
+    float: left;
+    display: flex;
+    font-size: 50px;
+}
+.content p{
+    width: 1200px;
+    height: auto;
+    color: rgb(133, 133, 133);
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.content h2{
+    width: 1200px;
+    height: auto;
+    color: rgb(133, 133, 133);
+    padding-left: 30px;
+    padding-top: 40px;
+    float: left;
+    display: flex;
+    font-size: 30px;
+}
+.content1 h1{
+    width: 480px;
+    height: auto;
+    color: rgb(162, 3, 3);
+    font-family: "barbie";
+    float: right;
+    display: flex;
+    font-size: 50px;
+}

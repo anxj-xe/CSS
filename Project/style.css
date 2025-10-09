@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    position: relative;
+    top: -2px;
+}
+
 @font-face{
     font-family: 'chorus';
     src: url(/fonts/CHORUS/CHORUS-BOLD.otf);
@@ -16,6 +21,9 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+.logo {
+    left: 20px;
 }
 .logo a{
     text-decoration: none;
@@ -32,12 +40,32 @@
 .logo a:active{
     color: hsl(28, 40%, 40%);
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 1000;
+
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    /* create the smooth fade at bottom */
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+}
 
 .menu{
     width:200px;
     height: 100px;
     float: left;
-
+    left: 200px;
 }
 ul{
     float: left;
@@ -69,8 +97,9 @@ ul li a:active{
 .search{
     width: 330px;
     float: left;
-    margin-left: 650px;
-    margin-top: 25px;
+    margin-left: 600px;
+    margin-top: 5px;
+    right: 30px;
 }
 
 .srch{
@@ -96,6 +125,9 @@ ul li a:active{
 .btn:focus{
     outline: none;
 }
+.logo, .menu, .search{
+    position: static;
+}
 
 .content h1{
     width: 1200px;
@@ -103,7 +135,7 @@ ul li a:active{
     color: rgb(162, 3, 3);
     font-family: "barbie";
     padding-left: 30px;
-    padding-top: 60px;
+    padding-top: 130px;
     float: left;
     display: flex;
     font-size: 50px;
@@ -134,4 +166,15 @@ ul li a:active{
     float: right;
     display: flex;
     font-size: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.main1{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)75%, rgba(0,0,0,0.5)75%), url(/Images/tameimpala.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
